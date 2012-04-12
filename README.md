@@ -35,7 +35,7 @@ It would be better if the error was more direct.  And what's more direct than a 
 	
 
 ## How?
-ArrayPirate monkey patches Ruby so that NilClass returns a Narr rather than an exception when it is treated like an array.  Since pirates are more dangerous than monkeys, this could be considered a pirate patch.
+ArrayPirate monkey patches Ruby.  When NilClass  is treated like an array, it returns Narr rather than throwing an exception.  Since pirates are more dangerous than monkeys, this could be considered a pirate patch.
 
 
 ## Getting started
