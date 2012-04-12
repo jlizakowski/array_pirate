@@ -2,12 +2,6 @@
 
 Makes Array give more meaningful errors and fewer exceptions.
 
-When an array is accessed with a bad index, 
-
-## Getting started
-
-    $ require "ArrayPirate.rb"   #may become a gem soon
-
 ## Using it
 
 Let's say you have an array filled with valuable treasure
@@ -42,6 +36,11 @@ It would be better if the error was more direct.  And what's more direct than a 
 
 ## How?
 ArrayPirate monkey patches Ruby (a pirate patch) so that NilClass returns a Narr rather than an exception when it is treated like an array.  
+
+
+## Getting started
+
+    $ require "ArrayPirate.rb"   #may become a gem soon
 
 ## TODO
 * Gemify
